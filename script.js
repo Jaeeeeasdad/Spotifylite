@@ -40,7 +40,7 @@ const repeatBtn  = document.getElementById("repeatBtn");
 const iconPlay  = playBtn.querySelector(".icon-play");
 const iconPause = playBtn.querySelector(".icon-pause");
 
-const ROMAN = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
+const ROMAN = ["I","II","III","IV","V","VI"];
 
 /* =========================================================
    STATE
@@ -155,7 +155,8 @@ function play(){
   const track = currentTrack();
 
   if (track.src) {
-    audioEl.play().catch(() => {
+    audioEl.play().catch((error) => {
+      console.error("Playback error:", error);
       playerNote.textContent = "Couldn't play that file — check the path in script.js.";
     });
   } else {
@@ -329,7 +330,10 @@ function startPetals(){
 /* =========================================================
    INIT
    ========================================================= */
-buildTrackList();
-selectTrack(0, { autoplay: false });
-audioEl.volume = Number(volumeBar.value) / 100;
-startPetals();
+document.addEventListener("DOMContentLoaded", () => {
+  buildTrackList();
+  selectTrack(0, { autoplay: false });
+  audioEl.volume = Number(volumeBar.value) / 100;
+  startPetals();
+  console.log("✓ Playlist initialized with", PLAYLIST.length, "tracks");
+});
