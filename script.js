@@ -8,10 +8,10 @@
    handy while you're picking songs before you have the files.
    ========================================================= */
 const PLAYLIST = [
-  { title: "Morning, Slow",        artist: "Mono Petals",     mood: "for the quiet mornings",        duration: 192, src: "" },
-  { title: "Blue Hour",            artist: "Faraway Fields",  mood: "for driving with the windows down", duration: 241, src: "" },
-  { title: "Still Here",           artist: "Paper Kites & Co.", mood: "for the long stretches of nothing", duration: 205, src: "" },
-  { title: "Wildflower Season",    artist: "Halden",          mood: "for the good kind of restless",  duration: 178, src: "" },
+  { title: "Morning, Slow",        artist: "Mono Petals",     mood: "for the quiet mornings",        duration: 192, src: "Ariana Grande - Into You (Official Video).mp3" },
+  { title: "Blue Hour",            artist: "Faraway Fields",  mood: "for driving with the windows down", duration: 241, src: "Favorite Girl.mp3" },
+  { title: "Still Here",           artist: "Paper Kites & Co.", mood: "for the long stretches of nothing", duration: 205, src: "SZA - Saturn.mp3" },
+  { title: "Wildflower Season",    artist: "Halden",          mood: "for the good kind of restless",  duration: 178, src: "SZA - Snooze feat. Justin Bieber (Music Video).mp3" },
   { title: "Second Half",          artist: "Mono Petals",     mood: "for after the hard days",       duration: 223, src: "" },
   { title: "Take the Long Way",    artist: "Coast & Compass", mood: "for when we're in no rush",     duration: 261, src: "" },
   { title: "Keep the Porch Light On", artist: "Faraway Fields", mood: "for coming home",              duration: 214, src: "" },
