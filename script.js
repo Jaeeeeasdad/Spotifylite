@@ -8,15 +8,12 @@
    handy while you're picking songs before you have the files.
    ========================================================= */
 const PLAYLIST = [
-  { title: "Ariana Grande - Into You (Official Video)",        artist: "Ariana Grande",     mood: "for the quiet mornings",        duration: 212, src: "Ariana Grande - Into You (Official Video).mp3" },
-  { title: "Favorite Girl",            artist: "The Weeknd",  mood: "for driving with the windows down", duration: 234, src: "Favorite Girl.mp3" },
-  { title: "SZA - Saturn",           artist: "SZA", mood: "for the long stretches of nothing", duration: 248, src: "SZA - Saturn.mp3" },
-  { title: "SZA - Snooze feat. Justin Bieber (Music Video)",    artist: "SZA ft. Justin Bieber",          mood: "for the good kind of restless",  duration: 197, src: "SZA - Snooze feat. Justin Bieber (Music Video).mp3" },
-  { title: "Second Half",          artist: "Mono Petals",     mood: "for after the hard days",       duration: 223, src: "" },
-  { title: "Take the Long Way",    artist: "Coast & Compass", mood: "for when we're in no rush",     duration: 261, src: "" },
-  { title: "Keep the Porch Light On", artist: "Faraway Fields", mood: "for coming home",              duration: 214, src: "" },
-  { title: "Small Hours",          artist: "Halden",          mood: "for talking until 2am",         duration: 197, src: "" },
-  { title: "Where the Flowers Are", artist: "Mono Petals",    mood: "for the whole road, honestly",  duration: 249, src: "" },
+  { title: "Dangerous Woman",        artist: "Ariana Grande",     mood: "for the bold moments",        duration: 212, src: "Ariana%20Grande%20-%20Dangerous%20Woman%20(Official%20Video).mp3" },
+  { title: "Into You",            artist: "Ariana Grande",  mood: "for the quiet mornings", duration: 234, src: "Ariana%20Grande%20-%20Into%20You%20(Official%20Video).mp3" },
+  { title: "Favorite Girl",           artist: "The Weeknd", mood: "for driving with the windows down", duration: 248, src: "Favorite%20Girl.mp3" },
+  { title: "Nobody Gets Me",    artist: "SZA",          mood: "for the long stretches of nothing",  duration: 197, src: "SZA%20-%20Nobody%20Gets%20Me%20(Lyrics).mp3" },
+  { title: "Saturn",          artist: "SZA",     mood: "for after the hard days",       duration: 223, src: "SZA%20-%20Saturn.mp3" },
+  { title: "Snooze",    artist: "SZA ft. Justin Bieber", mood: "for when we're in no rush",     duration: 261, src: "SZA%20-%20Snooze%20feat.%20Justin%20Bieber%20(Music%20Video).mp3" },
 ];
 
 /* =========================================================
